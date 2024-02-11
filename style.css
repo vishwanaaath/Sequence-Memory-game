@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  overflow: hidden;
+  height: 100vh;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 630px;
+  max-width: 630px;
+  font-size: 85px;
+  color: white;
+  gap: 10px;
+  display: none;
+}
+.box {
+  height: 200px;
+  min-width: 200px;
+  background-color: #121212;
+}
+#timer {
+  height: 630px;
+  width: 630px;
+  display: flex;
+  font-size: 85px;
+  transform: scale(1.5);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
